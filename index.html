@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUMBER GUESS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="./Number 8 free icons designed by Hight Quality Icons.jpeg"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Number Guessing Application</h1>
+      <h3>Rules</h3>
+      <ul>
+        <div id="points">
+          <li>Select a number from 1 to 1000</li>
+          <li>Click on the check button</li>
+          <li>It will give youa hint to guess the number correctly</li>
+          <li>Repeat the same step untill you find the number</li>
+        </div>
+      </ul>
+      <input type="number" name="nu" id="n1" placeholder="Enter the number" />
+      <h2 id="result">WAIT FOR RESULT</h2>
+      <h2 id="count">0</h2>
+      <div id="base">
+        <button type="submit" onclick="findnum()" id="check">CHECK</button>
+        <button type="submit" id="Reset" onclick="window.location.reload()">
+          RESET
+        </button>
+      </div>
+    </div>
+    <script src="./design.js"></script>
+  </body>
+</html>
